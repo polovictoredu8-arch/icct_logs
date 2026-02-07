@@ -1,10 +1,10 @@
 <?php
 
 // Database credentials
-$host = "localhost";
-$username = "root";
-$password = "";
-$database = "icct_emp";
+$host = "sql202.infinityfree.com";
+$username = "if0_41088255";
+$password = "adminicct10";
+$database = "if0_41088255_icct_emp";
 
 // Create connection
 $conn = new mysqli($host, $username, $password, $database);
@@ -45,5 +45,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 // Close connection
 $conn->close();
+
 
 ?>
