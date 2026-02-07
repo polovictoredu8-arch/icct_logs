@@ -2,10 +2,10 @@
 session_start(); // Start the session
 
 // Database credentials
-$host = "localhost";
-$username = "root";
-$password = "";
-$database = "icct_emp";
+$host = "sql202.infinityfree.com";
+$username = "if0_41088255";
+$password = "adminicct10";
+$database = "if0_41088255_icct_emp";
 
 // Create connection
 $conn = new mysqli($host, $username, $password, $database);
